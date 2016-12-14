@@ -73,7 +73,7 @@ public class FirstServlet extends HttpServlet {
         }
 
     }
-
+//get
     @Override
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
